@@ -14,106 +14,124 @@ class preg {
   }
 }
 
-uno = new preg(
-  "¿Cuántos son los mandamientos de la Ley de Dios?",
-  "10",
-  "7",
-  "12",
-  "3"
-);
-dos = new preg(
-  "¿Cómo se llama el primer sacramento que recibimos?",
-  "El Bautismo",
-  "La Confirmación",
-  "La Eucaristía",
-  "El Matrimonio"
-);
-tres = new preg(
-  "¿En qué día celebramos la resurrección de Jesús?",
-  "El Domingo",
-  "El Lunes",
-  "El Viernes",
-  "El Sábado"
-);
-cuatro = new preg(
-  "¿Quién nos enseñó el Padre Nuestro?",
-  "Jesús",
-  "Moisés",
-  "Pedro",
-  "San Pablo"
-);
-cinco = new preg(
-  "¿Cuántas personas hay en la Santísima Trinidad?",
-  "3",
-  "1",
-  "2",
-  "4"
-);
-seis = new preg(
-  "¿Cuál es el primer mandamiento?",
-  "Amarás a Dios sobre todas las cosas",
-  "No matarás",
-  "Honrarás a tu padre y a tu madre",
-  "No robarás"
-);
-siete = new preg(
-  "¿Qué recibimos en la primera comunión?",
-  "El Cuerpo y la Sangre de Cristo",
-  "Un regalo",
-  "Una bendición",
-  "Una medalla"
-);
-ocho = new preg(
-  "¿Cuál es el nombre de la oración que rezamos para pedir perdón a Dios?",
-  "El Acto de Contrición",
-  "El Ave María",
-  "El Credo",
-  "El Padre Nuestro"
-);
-nueve = new preg(
-  "¿Cuántas bienaventuranzas enseñó Jesús?",
-  "8",
-  "5",
-  "10",
-  "12"
+uno = new preg( 
+"¿Qué significa la comunión de los santos?", 
+"La conexión que tenemos con todos los cristianos, vivos y muertos", 
+"Un equipo de fútbol formado por niños y niñas", 
+"Un dinosauro llamado Santo", 
+"Un álbum de fotos de la iglesia" 
+); 
+
+dos = new preg( 
+"¿Quiénes forman parte de la comunión de los santos?", 
+"Todos los cristianos: los que viven, los que están purificándose y los que ya están en el cielo", 
+"Solo los santos canonizados por la Iglesia", 
+"Solo los que están en el cielo", 
+"Los animales de la Biblia" 
+); 
+
+tres = new preg( 
+"¿Qué hacen los santos en el cielo por nosotros?", 
+"Nos acompañan, nos animan y rezan por nosotros", 
+"Juegan al escondite con Dios", 
+"Nos mandan mensajes de texto", 
+"No hacen nada, están dormidos" 
+); 
+
+cuatro = new preg( 
+"¿Por qué estamos más conectados con los santos que con nuestra familia terrenal?", 
+"Porque ellos ya viven junto a Dios y son nuestra familia en el cielo", 
+"Porque los santos tienen superpoderes", 
+"Porque vivimos en la misma ciudad", 
+"Porque tienen muchas redes sociales" 
+); 
+
+cinco = new preg( 
+"¿Cómo podemos imaginar la comunión de los santos?", 
+"Como estar dentro de una red que une a todos los cristianos", 
+"Como una nave espacial que viaja al espacio", 
+"Como una gran carrera donde todos compiten", 
+"Como un videojuego que todos juegan" 
 );
 
-diez = new preg("¿Cuántos libros tiene la Biblia?", "73", "66", "50", "100");
+seis = new preg(
+  "¿A qué santo se le conoce como el padre de los pobres?",
+  "San Vicente de Paúl",
+  "San Francisco de Asís",
+  "San Ignacio de Loyola",
+  "San Juan Bosco"
+);
+
+siete = new preg(
+  "¿Qué obra importante fundó San Vicente de Paúl?",
+  "La Congregación de la Misión (Padres Paúles)",
+  "La Orden Franciscana",
+  "La Compañía de Jesús",
+  "Los Hermanos Maristas"
+);
+
+ocho = new preg(
+  "¿Qué hizo San Vicente de Paúl por los niños abandonados y los enfermos?",
+  "Les dio ayuda, alimento y cuidado",
+  "Los llevó a otro país",
+  "Les enseñó a jugar deportes",
+  "Les escribió cartas"
+);
+
+nueve = new preg(
+  "¿Con quién fundó San Vicente de Paúl las Hijas de la Caridad?",
+  "Con Santa Luisa de Marillac",
+  "Con Santa Teresa de Calcuta",
+  "Con Santa Catalina Labouré",
+  "Con Santa Rita"
+);
+
+diez = new preg(
+  "¿Qué valor destacó en toda la vida de San Vicente de Paúl?",
+  "La caridad y el servicio a los más necesitados",
+  "La fuerza física",
+  "El estudio de matemáticas",
+  "El arte de la música"
+);
 
 once = new preg(
-  "¿Qué significa 'católico'?",
-  "Universal",
-  "Divino",
-  "Sagrado",
-  "Santo"
+  "¿En qué año ocurrió la primera aparición de la Virgen a Catalina?",
+  "1830",
+  "1806",
+  "1876",
+  "1847"
 );
+
 doce = new preg(
-  "¿Cómo se llama la madre de Jesús?",
-  "María",
-  "Marta",
-  "Isabel",
-  "Ana"
+  "¿Qué objeto le indicó la Virgen que se acuñara a Catalina?",
+  "La Medalla Milagrosa",
+  "Un reloj de bolsillo",
+  "Un anillo",
+  "Una cruz"
 );
+
 trece = new preg(
-  "¿Cuál es el segundo mandamiento?",
-  "No tomarás el nombre de Dios en vano",
-  "No mentirás",
-  "No robarás",
-  "Amarás a tu prójimo como a ti mismo"
+  "¿Dónde vivía Catalina cuando recibió la aparición?",
+  "En la capilla de la Rue du Bac en París",
+  "En su granja natal en Borgoña",
+  "En Roma",
+  "En la Universidad de París"
 );
+
 catorce = new preg(
-  "¿Cuál de estos sacramentos es para el perdón de los pecados?",
-  "La Confesión o Penitencia",
-  "La Confirmación",
-  "El Matrimonio",
-  "El Bautismo"
+  "¿Qué mensaje traía la imagen en la Medalla Milagrosa?",
+  "Rogad por nosotros que acudimos a ti",
+  "Amor eterno a todos",
+  "Haz el bien sin mirar a quién",
+  "Dios es amor"
 );
+
 quince = new preg(
-  "¿Cómo se llama el libro que contiene la Palabra de Dios?",
-  "La Biblia",
-  "El Catecismo",
-  "El Misal",
-  "El Rosario"
+  "¿Qué sucedió con el cuerpo de Catalina cuando fue exhumado 57 años después?",
+  "Se encontró incorrupto",
+  "Estaba descompuesto",
+  "Lo habían trasladado a otro país",
+  "Había desaparecido"
 );
 
 const preguntas = [
