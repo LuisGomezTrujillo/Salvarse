@@ -271,8 +271,11 @@ body {
 }
 
 .cont_pregunta .preg_borde {
-  height: 20%;
+  min-height: 20%;
+  max-height: 30%;
+  height: auto;
   margin-bottom: 10%;
+  overflow: auto;
 }
 
 .cont_pregunta .respuestas {
@@ -297,15 +300,17 @@ body {
   clip-path: polygon(10% 0, 90% 0, 100% 50%, 100% 50%, 90% 100%, 10% 99%, 0 50%, 0 50%);
   background-color: #490179;
   width: 90%;
-  height: 85%;
+  height: auto;
+  padding: 10px;
   color: white;
   display: flex;
   justify-content: center;
   align-content: center;
   align-items: center;
-  flex-direction: column;
-  flex-wrap: wrap;
+  text-align: center;
   font-size: 18px;
+  flex-wrap: wrap;
+  word-wrap: break-word;
 }
 
 .cont_pregunta .resp {
@@ -406,3 +411,4 @@ body {
 .ventana2 .victoria {
   display: none;
 }
+
