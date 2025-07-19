@@ -1,12 +1,22 @@
 @keyframes animacion1 {
-  0% { transform: scale(1); }
-  50% { transform: scale(2); }
-  100% { transform: scale(0); }
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(2);
+  }
+  100% {
+    transform: scale(0);
+  }
 }
 
 @keyframes animacion2 {
-  from { opacity: 0; }
-  to { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 * {
@@ -46,14 +56,18 @@ body {
   transform: scale(0.9);
 }
 
-.nosonar { background-color: gray; }
+.nosonar {
+  background-color: gray;
+}
 
 .header {
   width: 100%;
   height: 15%;
   display: flex;
   justify-content: space-between;
+  align-content: center;
   align-items: center;
+  flex-direction: row;
   flex-wrap: wrap;
 }
 
@@ -64,15 +78,19 @@ body {
   font-weight: lighter;
 }
 
-.header .denero { padding: 5%; }
+.header .denero {
+  padding: 5%;
+}
 
 .principal {
   width: 100%;
   height: 75%;
   display: flex;
   justify-content: space-evenly;
+  align-content: center;
   align-items: center;
   flex-direction: column;
+  flex-wrap: nowrap;
 }
 
 .principal .logo {
@@ -80,7 +98,9 @@ body {
   width: 65vh;
 }
 
-.principal .icon-exit { font-size: 30px; }
+.principal .icon-exit {
+  font-size: 30px;
+}
 
 .informacion {
   z-index: 300;
@@ -89,17 +109,23 @@ body {
   width: 100%;
   height: 100%;
   position: fixed;
-  top: 0; right: 0; left: 0; bottom: 0;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
   margin: auto;
   text-align: center;
   transition: 0.7s all ease-in-out;
 }
 
-.informacion .cont { margin: 5%; }
+.informacion .cont {
+  margin: 5%;
+}
 
 .informacion span {
   position: absolute;
   right: 0;
+  padding: 0;
   margin: 1%;
   cursor: pointer;
   background: #2d0e53;
@@ -119,9 +145,14 @@ body {
   min-height: 100px;
 }
 
-.nomostrar { transform: translate(-200%, -200%); }
+.nomostrar {
+  transform: translate(-200%, -200%);
+}
 
-.desaparecer { transition: 1s all ease-in; transform: scale(0); }
+.desaparecer {
+  transition: 1s all ease-in;
+  transform: scale(0);
+}
 
 .animacionLogo {
   animation-name: animacion1;
@@ -140,7 +171,9 @@ body {
   height: 85%;
   display: flex;
   justify-content: space-evenly;
+  align-content: center;
   align-items: center;
+  flex-direction: row;
   flex-wrap: wrap;
   display: none;
   opacity: 0;
@@ -152,8 +185,10 @@ body {
   height: 100%;
   display: flex;
   justify-content: space-evenly;
+  align-content: center;
   align-items: center;
   flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .pregunta_zona .tiempo span {
@@ -168,7 +203,10 @@ body {
   font-weight: bold;
   display: flex;
   justify-content: center;
+  align-content: center;
   align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .pregunta_zona .cont_pregunta {
@@ -182,7 +220,9 @@ body {
   height: 20%;
   display: flex;
   justify-content: center;
+  align-content: center;
   align-items: center;
+  flex-direction: row;
   flex-wrap: wrap;
 }
 
@@ -190,6 +230,9 @@ body {
   font-size: 50px;
   border: 2px solid white;
   color: white;
+  display: inline-block;
+  width: auto;
+  height: auto;
   margin: 3px;
   cursor: pointer;
 }
@@ -206,6 +249,7 @@ body {
   height: 100%;
   display: flex;
   justify-content: center;
+  align-content: center;
   align-items: center;
   flex-direction: column;
   flex-wrap: wrap;
@@ -219,6 +263,7 @@ body {
   text-align: center;
   display: flex;
   justify-content: center;
+  align-content: center;
   align-items: center;
   flex-direction: column;
   flex-wrap: wrap;
@@ -226,29 +271,25 @@ body {
 }
 
 .cont_pregunta .preg_borde {
-  min-height: 20%;
-  max-height: 30%;
-  height: auto;
+  height: 20%;
   margin-bottom: 10%;
-  overflow: auto;
 }
 
 .cont_pregunta .respuestas {
   width: 95%;
-  height: 60%;
+  height: 40%;
   display: flex;
   justify-content: center;
+  align-content: center;
   align-items: center;
+  flex-direction: row;
   flex-wrap: wrap;
 }
 
 .cont_pregunta .resp_borde {
-  width: 45%;
-  height: 35%;
+  width: 40%;
+  height: 25%;
   min-width: 180px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .cont_pregunta .resp,
@@ -256,17 +297,15 @@ body {
   clip-path: polygon(10% 0, 90% 0, 100% 50%, 100% 50%, 90% 100%, 10% 99%, 0 50%, 0 50%);
   background-color: #490179;
   width: 90%;
-  height: auto;
-  padding: 15px;
+  height: 85%;
   color: white;
   display: flex;
   justify-content: center;
+  align-content: center;
   align-items: center;
-  text-align: center;
-  font-size: 18px;
+  flex-direction: column;
   flex-wrap: wrap;
-  word-wrap: break-word;
-  overflow: auto;
+  font-size: 18px;
 }
 
 .cont_pregunta .resp {
@@ -283,7 +322,10 @@ body {
   width: 40vw;
   height: 40vw;
   position: fixed;
-  top: 0; right: 0; left: 0; bottom: 0;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
   margin: auto;
   text-align: center;
   min-width: 400px;
@@ -291,6 +333,7 @@ body {
   font-size: 40px;
   display: flex;
   justify-content: center;
+  align-content: center;
   align-items: center;
   flex-direction: column;
   flex-wrap: wrap;
@@ -305,9 +348,15 @@ body {
   right: 0;
 }
 
-.ventana i { font-size: 100px; margin: 2%; }
+.ventana i {
+  font-size: 100px;
+  margin: 2%;
+}
 
-.ventana span { display: block; text-align: left; }
+.ventana span {
+  display: block;
+  text-align: left;
+}
 
 .ventana .progreso {
   width: 50%;
@@ -315,14 +364,32 @@ body {
   -webkit-appearance: none;
 }
 
-.ventana .progreso::-webkit-progress-value { background-color: gold; }
-.ventana .progreso::-webkit-progress-bar { background-color: transparent; border: 2px solid gold; }
+.ventana .progreso::-webkit-progress-value {
+  background-color: gold;
+}
 
-.ventana #correcto { margin: 1%; color: gold; }
+.ventana .progreso::-webkit-progress-bar {
+  background-color: transparent;
+  border: 2px solid gold;
+}
 
-.ventana .icon-checkmark { color: #2df006; }
+.ventana #correcto {
+  margin: 1%;
+  color: gold;
+}
 
-.ventana .llamar, .ventana .audiencia, .ventana .correcta { display: none; }
+.ventana .icon-checkmark {
+  color: #2df006;
+}
+
+.ventana .llamar,
+.ventana .audiencia {
+  display: none;
+}
+
+.ventana .correcta {
+  display: none;
+}
 
 .ventana2 img {
   display: block;
@@ -336,4 +403,6 @@ body {
   font-size: 25px;
 }
 
-.ventana2 .victoria { display: none; }
+.ventana2 .victoria {
+  display: none;
+}
