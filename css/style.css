@@ -258,7 +258,7 @@ body {
 .cont_pregunta .preg_borde,
 .cont_pregunta .resp_borde {
   background: gold;
-  width: 90%;
+  width: 95%;
   margin: 3%;
   text-align: center;
   display: flex;
@@ -288,8 +288,8 @@ body {
 
 .cont_pregunta .resp_borde {
   width: 40%;
-  height: 25%;
-  min-width: 180px;
+  height: 40%;
+  min-width: 250px;
 }
 
 .cont_pregunta .resp,
@@ -305,7 +305,7 @@ body {
   align-items: center;
   flex-direction: column;
   flex-wrap: wrap;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .cont_pregunta .resp {
@@ -362,6 +362,7 @@ body {
   width: 50%;
   height: 17px;
   -webkit-appearance: none;
+  appearance: none;
 }
 
 .ventana .progreso::-webkit-progress-value {
